@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+
+
+    <children>
+
+
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="360.0" prefWidth="1623.0">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="281.0" layoutY="29.0" text="Добро пожаловать в BigCock" textAlignment="CENTER" textFill="#cf3e2b">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="336.0" layoutY="56.0" text="Соберите свой заказ" textFill="#e51616">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="76.0" text="Основное блюдо" />
+            <ChoiceBox fx:id="first" layoutX="140.0" layoutY="72.0" prefWidth="150.0" />
+            <Label layoutX="85.0" layoutY="115.0" text="Гарнир" />
+            <ChoiceBox fx:id="second" layoutX="140.0" layoutY="111.0" prefWidth="150.0" />
+            <Label layoutX="81.0" layoutY="153.0" text="Напиток" />
+            <ChoiceBox fx:id="third" layoutX="140.0" layoutY="149.0" prefWidth="150.0" />
+            <CheckBox fx:id="ketchup" layoutX="105.0" layoutY="199.0" mnemonicParsing="false" text="Кетчуп" />
+            <CheckBox fx:id="garchisa" layoutX="186.0" layoutY="199.0" mnemonicParsing="false" text="Горчица" />
+            <CheckBox fx:id="chesse" layoutX="263.0" layoutY="199.0" mnemonicParsing="false" text="Сырный(для психов)" />
+            <Label layoutX="105.0" layoutY="180.0" text="Выбирите соус:" />
+            <Button fx:id="order" layoutX="335.0" layoutY="278.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="136.0" text="Заказать" />
+            <TextField fx:id="loginField" layoutX="509.0" layoutY="85.0" />
+            <Label layoutX="442.0" layoutY="89.0" text="Ваше имя" />
+         </children>
+        </AnchorPane>
+
+
+    </children>
+</VBox>
